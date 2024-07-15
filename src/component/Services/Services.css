@@ -1,0 +1,80 @@
+.service-heading {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px ;
+    
+}
+
+.services-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Example: Add gap between grid items */
+}
+
+.services-details {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    margin: 5px 40px;
+    height: 307px;
+    
+}
+
+
+.services-text {
+    padding: 20px;
+}
+.services-text h1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.services-text p{
+    padding: 20px 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 20px;
+}
+
+
+
+
+.services-image img {
+    border-top-left-radius: 100%;
+    padding: 50px 0;
+    height: 257px;
+    width: 300px;
+    object-fit: cover; /* Example: Ensure image fits container */
+}
+
+@media (max-width: 760px) {
+    .services-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services-details {
+        width: 100%;
+        margin: 5px 0px;
+        height: 277px; /* Example: Adjust height for responsiveness */
+    }
+
+    .services-image img {
+        padding: 20px 0; /* Example: Adjust padding */
+        border-top-left-radius: 100%;
+        width: 100%; /* Example: Ensure image width is full */
+        object-fit: cover; /* Example: Ensure image fits container */
+    }
+    .services-detail-sentence{
+        width: 250px;
+    }
+}

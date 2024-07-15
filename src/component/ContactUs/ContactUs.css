@@ -1,0 +1,95 @@
+.contactUs-section{
+    background-image: url('./images/contact-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 25%;
+    margin: 80px 0;
+    padding: 100px;
+    
+}
+.contactus-heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.contactus-heading h1{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px ;
+    color: white;
+
+}
+
+.contactUs-form-container{
+    height: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    background: white;
+    width: 30%;
+    margin: -15% 35%;
+    
+}
+
+.contactUs-sub-heading h1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px ;
+    text-align: center;
+    color: black;
+    padding: 30px;
+}
+
+.form-inputs .inputs{
+    padding: 10px 20px;
+}
+.form-inputs .buttons{
+    padding: 10px 20px;
+}
+.form-inputs .inputs input{
+    height: 50px;
+    width: 100%;
+    border: 1px solid  black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    
+    
+    
+
+}
+.form-inputs .inputs .textArea{
+    height: 120px;
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.form-inputs .buttons button{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(116, 0, 248);
+    border: 1px solid white;
+    color: white;
+    
+
+}
+
+@media (max-width:760px){
+
+    .contactUs-section{
+        margin: 50px 0;
+        padding: 100px;
+    }
+    .contactUs-form-container{
+        height: 670px;
+        width: 60%;
+        margin: -45% 20%;
+    }
+}

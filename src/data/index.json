@@ -1,0 +1,77 @@
+{
+    "services":
+    [
+        {
+            "id":1,
+            "heading":"Web Development",
+            "sentence":"We specialize in creating custom websites that are tailored to your specific needs. From responsive design to backend functionality, we ensure your site is both visually appealing and functionally robust.",
+            "image": "./images/web-dev.jpg"
+        },
+        {
+            "id":2,
+            "heading":"Graphic Design",
+            "sentence":"Our graphic design services cover everything from logos and branding to print materials and digital assets. We craft visually compelling designs that align with your brand identity and resonate with your audience.",
+            "image": "./images/graphic-design.jpg"
+        },
+        {
+            "id":3,
+            "heading":"Videography",
+            "sentence":"We offer professional videography services, producing high-quality videos that tell your story effectively. From promotional videos to tutorials and testimonials, we capture and convey your message with creativity and impact.",
+            "image": "./images/videography.jpg"
+        },
+        {
+            "id":4,
+            "heading":"UI/UX Design",
+            "sentence":"Our UI/UX design expertise focuses on enhancing user interaction and experience across digital platforms. We create intuitive interfaces and seamless user journeys, ensuring your websites and apps are engaging and user-friendly.",
+            "image": "./images/UIUX.jpg"
+        }
+    ],
+    "projects":
+    [
+        {
+            "id":1,
+            "project-heading":"Ubuntu Connect",
+            "link": "/",
+            "project-image": "./images/Ubuntu Connect.png"
+        },
+        {
+            "id":2,
+            "project-heading":"Nyaniso Portfolio",
+            "link": "https://gleaming-palmier-ce8fb8.netlify.app/",
+            "project-image": "./images/Home.png"
+        },
+        {
+            "id":3,
+            "project-heading":"Ubuntu Connect",
+            "link": "/",
+            "project-image": "./images/TrashAttack.png"
+        }
+    ],
+
+    "social":
+    [
+        {
+            "id":1,
+            "social-icon":"./images/instagram.png",
+            "social-link":"https://www.instagram.com/theprofessorfilms/"
+        },
+        {
+            "id":2,
+            "social-icon":"./images/linkedin.png",
+            "social-link":"https://www.linkedin.com/in/nyaniso-tukani/"
+        },
+        {
+            "id":3,
+            "social-icon":"./images/youtube.png",
+            "social-link":"https://www.youtube.com/@theprofessorfilms"
+        },
+        {
+            "id":4,
+            "social-icon":"./images/github.png",
+            "social-link":"https://github.com/NyanisoTukani"
+        }
+
+    ]
+
+
+}

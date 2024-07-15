@@ -1,0 +1,83 @@
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+nav .logo{
+    padding: 20px 40px;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 2vh;
+    font-weight: 600;
+    transition: 0.5s;
+}
+#navbar li a:hover,
+#navbar li a.active
+{
+    color: rgb(79, 0, 153);
+}
+#navbar li a:hover::after,
+#navbar li a.active::after{
+    content: "";
+    background-color: rgb(79, 0, 153);
+    width: 30%;
+    height: 2px;
+    position: absolute;
+    bottom: -4px;
+    left: 21px;
+}
+
+#mobile{
+    display: none;
+    color: black;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width:760px) {
+    #navbar{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-self: flex-start;
+        position: fixed;
+        height: 100vh;
+        top: 83px;
+        right: -300px;
+        background: rgb(12, 11, 14);
+    }
+    #navbar.active{
+        right: 0;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+        padding: 10px 40px;
+    }
+    #navbar li a{
+        position: relative;
+        color: white;
+    }
+    #mobile{
+        display: block;
+    }
+
+}

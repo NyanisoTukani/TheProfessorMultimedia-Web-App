@@ -1,0 +1,65 @@
+.project-section{
+    width: 100%;
+    text-align: center;
+    margin: 60px 0;
+    padding: 40px 0;
+    background-image: url("./images/project-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 25%;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Example: Add gap between grid items */
+}
+.project-section  .project-heading-text{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+}
+.projects-card{
+    width: 80%;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    margin: 5px 40px;
+    height: 300px;
+    background: white;
+}
+.project-image-heading .image-heading{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: start;
+   
+
+}
+.link{
+    background: rgb(195, 0, 255);
+    height: 40px;
+    width: 120px;
+    margin:12px 0;
+}
+.link a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+
+    
+}
+
+@media (max-width:760px){
+    .project-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px; /* Example: Add gap between grid items */
+    }
+}
