@@ -18,7 +18,7 @@ export class Navbar extends Component {
             <>
                 <nav>
                     <a href="#" className="logo">
-                        <img src="./images/TheprofessorFilms.jpg" alt="logo" width="100px" />
+                        <img src="./images/TheProfessorFilms.jpg" alt="logo" width="100px" />
                     </a>
 
                     <div>
