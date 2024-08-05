@@ -28,21 +28,22 @@
     ],
     "projects":
     [
+        
         {
             "id":1,
+            "project-heading":"Nyaniso Portfolio",
+            "link": "https://gleaming-palmier-ce8fb8.netlify.app/",
+            "project-image": "./images/Home.png"
+        }
+        {
+            "id":2,
             "project-heading":"Ubuntu Connect",
             "link": "/",
             "project-image": "./images/Ubuntu Connect.png"
         },
         {
-            "id":2,
-            "project-heading":"Nyaniso Portfolio",
-            "link": "https://gleaming-palmier-ce8fb8.netlify.app/",
-            "project-image": "./images/Home.png"
-        },
-        {
             "id":3,
-            "project-heading":"Ubuntu Connect",
+            "project-heading":"Trash Attack",
             "link": "/",
             "project-image": "./images/TrashAttack.png"
         }
